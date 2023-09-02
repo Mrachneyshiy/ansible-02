@@ -4,7 +4,7 @@ Playbook:
  - Загружается дистрибутивы указанные в group_vars
  - Устанавливается clickhouse
  - Запускает clickhouse-server
- - Устанавливается vector
+ - Устанавливается vector на основе шаблонов
  - Запускается vector
 
 Чтобы работал playbook:
